@@ -1,6 +1,6 @@
 import random
 import string
-num_lines = 100
+num_lines = 1000000
 account_nums = [''.join(random.choice(string.ascii_letters + string.digits) for _ in range(10)) for _ in range(10)]
 # Function to generate a random line in the specified format
 def generate_random_transaction():
